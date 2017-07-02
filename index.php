@@ -34,7 +34,9 @@ include("php/tagBuilder.php")
 
 
     <?php
-        $tag = new tagBuilder('h2', 'jumbotron', 'background-color: aqua', "this is a php string");
+        $classes = new htmlClassBuilder(array("jumbotron"));
+
+        $tag = new tagBuilder('h2', 'jumbotron', 'background-color: aqua', "this is a php string", true);
         echo $tag;
     ?>
 

@@ -24,24 +24,33 @@ class tagBuilder
      * @param $style
      * @param $content
      */
-    public function __construct($tag_name, $classes, $style, $content)
+    public function __construct($tag_name, $classes, $style, $content, $end_tag)
     {
         $this->tag_name = $tag_name;
         $this->classes = $classes;
         $this->style = $style;
         $this->content = $content;
+        $this->end_tag = $end_tag;
 
-        return $this->buildTag();
+        $this->__toString();
+//        return $this->buildTag();
     }
 
     public function __toString(){
-        // TODO: Implement __toString() method.
         $tag_value = $this->getTagName();
         $classes = $this->getClasses();
         $style = $this->getStyle();
         $content = $this->getContent();
 
-        return "<$tag_value" . " class=\""."$classes \"" . "style=\""."$style \"". ">". " $content ". "</$tag_value>";
+        $tag_string = "<$tag_value" . " class=\""."$classes \"" . "style=\""."$style \"". ">". " $content ";
+
+        if($this->getEndTag() == true){
+            $tag_string .=  "</$tag_value>";
+
+        }
+
+        return $tag_string;
+//        return "<$tag_value" . " class=\""."$classes \"" . "style=\""."$style \"". ">". " $content ". "</$tag_value>";
     }
 
     public function buildTag(){
@@ -98,6 +107,16 @@ class tagBuilder
     private function closingTag(){
         return '>';
     }
+
+    /**
+     * @return mixed
+     */
+    public function getEndTag()
+    {
+        return $this->end_tag;
+    }
+
+
 
 
 }

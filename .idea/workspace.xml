@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c871e9d-4545-4b77-8dfa-807c5d960fd2" name="Default" comment="" />
+    <list default="true" id="8c871e9d-4545-4b77-8dfa-807c5d960fd2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/htmlClassBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/tagBuilder.php" afterPath="$PROJECT_DIR$/php/tagBuilder.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +24,26 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="600">
+              <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="htmlClassBuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/htmlClassBuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding>
+                <element signature="e#147#223#0#PHP" expanded="false" />
+                <element signature="n#__construct#0;n#htmlClassBuilder#0;n#!!top" expanded="false" />
+                <element signature="n#__toString#0;n#htmlClassBuilder#0;n#!!top" expanded="false" />
+                <element signature="e#496#528#0#PHP" expanded="false" />
+                <element signature="n#getClassNameArr#0;n#htmlClassBuilder#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -31,16 +52,16 @@
       <file leaf-file-name="tagBuilder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/tagBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="43" column="82" lean-forward="false" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
+            <state relative-caret-position="565">
+              <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
               <folding>
-                <element signature="e#1489#1521#0#PHP" expanded="false" />
+                <element signature="e#1754#1786#0#PHP" expanded="false" />
                 <element signature="n#getTagName#0;n#tagBuilder#0;n#!!top" expanded="false" />
-                <element signature="e#1604#1636#0#PHP" expanded="false" />
+                <element signature="e#1869#1901#0#PHP" expanded="false" />
                 <element signature="n#getClasses#0;n#tagBuilder#0;n#!!top" expanded="false" />
-                <element signature="e#1718#1750#0#PHP" expanded="false" />
+                <element signature="e#1983#2015#0#PHP" expanded="false" />
                 <element signature="n#getStyle#0;n#tagBuilder#0;n#!!top" expanded="false" />
-                <element signature="e#1828#1860#0#PHP" expanded="false" />
+                <element signature="e#2093#2125#0#PHP" expanded="false" />
                 <element signature="n#getContent#0;n#tagBuilder#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -124,6 +145,8 @@
         <option value="$PROJECT_DIR$/anchors.php" />
         <option value="$PROJECT_DIR$/php/anchors.php" />
         <option value="$PROJECT_DIR$/php/tagBuilder.php" />
+        <option value="$PROJECT_DIR$/htmlClassBuilder.php" />
+        <option value="$PROJECT_DIR$/php/htmlClassBuilder.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -313,15 +336,16 @@
       <option name="presentableId" value="Default" />
       <updated>1498757827164</updated>
       <workItem from="1498757828304" duration="1770000" />
-      <workItem from="1498760020741" duration="26376000" />
+      <workItem from="1498760020741" duration="28220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28146000" />
+    <option name="totallyTimeSpent" value="29990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -498,25 +522,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/tagBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="43" column="82" lean-forward="false" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
+        <state relative-caret-position="565">
+          <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding>
-            <element signature="e#1489#1521#0#PHP" expanded="false" />
+            <element signature="e#1754#1786#0#PHP" expanded="false" />
             <element signature="n#getTagName#0;n#tagBuilder#0;n#!!top" expanded="false" />
-            <element signature="e#1604#1636#0#PHP" expanded="false" />
+            <element signature="e#1869#1901#0#PHP" expanded="false" />
             <element signature="n#getClasses#0;n#tagBuilder#0;n#!!top" expanded="false" />
-            <element signature="e#1718#1750#0#PHP" expanded="false" />
+            <element signature="e#1983#2015#0#PHP" expanded="false" />
             <element signature="n#getStyle#0;n#tagBuilder#0;n#!!top" expanded="false" />
-            <element signature="e#1828#1860#0#PHP" expanded="false" />
+            <element signature="e#2093#2125#0#PHP" expanded="false" />
             <element signature="n#getContent#0;n#tagBuilder#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/htmlClassBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#147#223#0#PHP" expanded="false" />
+            <element signature="n#__construct#0;n#htmlClassBuilder#0;n#!!top" expanded="false" />
+            <element signature="n#__toString#0;n#htmlClassBuilder#0;n#!!top" expanded="false" />
+            <element signature="e#496#528#0#PHP" expanded="false" />
+            <element signature="n#getClassNameArr#0;n#htmlClassBuilder#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state relative-caret-position="600">
+          <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
